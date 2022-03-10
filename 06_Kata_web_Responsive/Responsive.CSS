@@ -1,0 +1,32 @@
+html{
+    font-size:10px;
+}
+body{
+    height: 600px;
+    width: 400px;
+}
+h1{
+    font-size:2rem;
+}
+.dev-em{
+    width: 100vw;
+    font-size:12px;
+    background-color: rgb(0, 255, 21);
+    font-size: 12px;
+}
+.text-rem{
+    font-size: 1.125rem;
+}
+.text-em{
+    font-size:3em;
+
+}
+div{
+    width: 100vw;
+    height: 100px;
+}
+
+@media only screen and(max-width:1024){
+
+   
+}

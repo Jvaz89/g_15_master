@@ -1,0 +1,59 @@
+.body{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 10% 80% 10%;
+    gap:5px 5px;
+    grid-template: repeat(13,1fr)/repeat(10,1fr);
+    
+}
+header{
+    background-color: blue;
+    align-items: center;
+    grid-area: 1/1/2/10;
+    width: 100vw;
+    height: 20vh;
+    
+}
+nav{
+    background-color: antiquewhite;
+    grid-area: 3/1/3/2;
+    width: 100vw;
+    height: 30vh;
+}
+main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-gap:10px;
+    width: 100vw;
+    height: 40vh;
+}
+.left{
+    background-color: rgb(195, 255, 127);
+    grid-column: 1/2;
+    grid-row:1/3;
+    height: 40vh;
+}
+.right{
+    background-color: rgb(230, 232, 232);
+    grid-column: 2/4;
+    grid-row:1/3;
+    height: 40vh;
+}
+footer{
+    background-color: rgb(101, 224, 64);
+
+
+}
+@media screen and (max-width:600px){
+    .left{
+        grid-column: 1/4;
+        grid-row:1/2;
+    }
+    .right{
+        grid-column: 1/4;
+        grid-row:2/3;
+    }
+    
+}

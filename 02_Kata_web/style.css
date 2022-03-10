@@ -1,0 +1,25 @@
+h1{
+    color: blue;
+    background-color: coral;
+}
+p{
+    color: rgb(102, 255, 0);
+    background-color: coral;
+}
+#primer{
+    color: rgb(0, 255, 221);
+    display: inline
+}
+#segundo{
+    color: rgb(0, 255, 221);
+    background-color: rgb(147, 80, 255);
+}
+.tipo{
+    font-size: 17px;
+    background-color: rgba(80, 255, 124, 0.452);
+}
+#etiqueta{
+    padding:10 px;
+    border: 10 px;
+    margin: 10 px;
+}

@@ -1,0 +1,33 @@
+div {
+    width: 150px;
+    height: 150px;
+}
+.div1{
+    background-color: black;
+    position:fixed;
+    right:0;
+    bottom: 10px;
+    z-index:-1;
+
+    
+}
+.div2{
+    background-color: aquamarine;
+    
+}
+.div3{
+    background-color: rgba(221, 190, 190, 0.253);
+}
+.div4{
+    background-color: red;
+}
+.div5{
+    background-color: aquamarine;
+    
+}
+.div6{
+    background-color: rgba(167, 66, 66, 0.664);
+}
+.div7{
+    background-color: red;
+}

@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background-color: rgb(217, 222, 243);
+    font-size: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+}
+.container{
+    background-color: rgb(238, 233, 241);
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+}
+.card{
+    border-bottom: solid rgb(215, 240, 218);
+}
+.foto{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-weight: 100px;
+}
+.address{
+    font-weight: 200px;
+}

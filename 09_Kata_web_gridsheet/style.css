@@ -1,0 +1,34 @@
+p{
+    display: none;
+}
+a:hover +p{
+    background-color: aquamarine;
+    display: inline;
+}
+a{
+    background-color: brown;
+}
+p{
+    background-color: rgb(171, 226, 43);
+}
+
+a :visited{
+    color: yellowgreen;
+
+}
+a :active{
+    background-color: rgba(207, 71, 241, 0.856);
+}
+/*
+focus
+visited
+hover
+avtive
+disabled
+*/
+textarea :active{
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}

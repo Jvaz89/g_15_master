@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+
+}
+p{
+    color: aquamarine;
+    background-color: violet;
+}
+#Acrophora_palmata {
+    color: coral;
+    display: inline;
+}
+#Mantarayas {
+    background-color: darkblue;
+}
+.tipo{
+    font-size: 35%;
+}
+#etiqueta{
+    padding:10px;
+    border: darkblue;
+    margin:15px;
+
+}
+#etiquetaDos{
+    padding: 3px;
+}

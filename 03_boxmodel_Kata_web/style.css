@@ -1,0 +1,21 @@
+body{
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    font-family: 20px'Times New Roman', Times, serif;
+    background-color: rgba(42, 165, 73, 0.712);
+}
+.Buceo1 ul{ 
+     padding: 10px 10px 10px 10px;
+     margin: 10px 30px 40px 60px;
+     border: 10px 30px 30px 40px;
+     background-color: rgb(80, 112, 255);
+     }
+.Buceo1 li{
+     padding: 10px 10px 10px 10px;
+     margin: 10px 20px 10px 20px;
+     border: 10px 20px 10px 20px rgb(30, 210, 75);
+     background-color: rgb(80, 229, 255);
+}
+.Buceo1{
+    padding: 30px 30px 30px 30px;
+}
